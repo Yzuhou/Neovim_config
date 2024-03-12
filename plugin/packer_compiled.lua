@@ -110,6 +110,12 @@ _G.packer_plugins = {
     path = "C:\\Users\\brank\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["luasnip-latex-snippets.nvim"] = {
+    config = { "\27LJ\2\n‡\1\0\0\3\0\6\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\2\3\0B\0\2\0029\0\4\0009\0\2\0005\2\5\0B\0\2\1K\0\1\0\1\0\1\24enable_autosnippets\2\vconfig\fluasnip\nsetup\27luasnip-latex-snippets\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\brank\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\luasnip-latex-snippets.nvim",
+    url = "https://github.com/iurimateus/luasnip-latex-snippets.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "C:\\Users\\brank\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
@@ -186,6 +192,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\brank\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  vimtex = {
+    loaded = true,
+    path = "C:\\Users\\brank\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vimtex",
+    url = "https://github.com/lervag/vimtex"
   }
 }
 
@@ -198,6 +209,10 @@ time([[Config for auto-save.nvim]], false)
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
+-- Config for: luasnip-latex-snippets.nvim
+time([[Config for luasnip-latex-snippets.nvim]], true)
+try_loadstring("\27LJ\2\n‡\1\0\0\3\0\6\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\2\3\0B\0\2\0029\0\4\0009\0\2\0005\2\5\0B\0\2\1K\0\1\0\1\0\1\24enable_autosnippets\2\vconfig\fluasnip\nsetup\27luasnip-latex-snippets\frequire\0", "config", "luasnip-latex-snippets.nvim")
+time([[Config for luasnip-latex-snippets.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
